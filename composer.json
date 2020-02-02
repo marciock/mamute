@@ -1,0 +1,19 @@
+{
+    "name":"marciock/mamute",
+    "description": "Micro Framework MVC",
+    "license": "MIT",
+    "type": "project",
+    "authors": [{
+        "name": "Marcio Alves",
+        "email": "marciockalves@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/",
+            "Core\\":"core/"
+        }
+    },
+    "require": {
+        "php":">=5.4"
+    }
+}
